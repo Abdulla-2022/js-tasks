@@ -47,28 +47,28 @@ console.log(res3);
 
 /*****  1  *****/
 let num = 10;
-num = num++;
-num = num+1;
-num = num--;
+num++;
+num+1;
+num--;
 console.log(num);
 
 /*****  2  *****/
 let num1 = 47;
-num1 = num1 += 7;
-num1 = num1 -=18;
-num1 = num1 *=10;
-num1 = num1 /= 15;
+num1 += 7;
+num1 -=18;
+num1 *=10;
+num1 /= 15;
 alert(num1);
 
 /*****  3  *****/
 
 let num2 = 1;
-num2 = num2 += 12;
-num2 = num2 -=14;
-num1 = num2 *=5;
-num2 = num2 /= 7;
-num2 = num2 ++;
-num2 = num2 --;
+num2 += 12;
+num2 -=14;
+num2 *=5;
+num2 /= 7;
+num2 ++;
+num2 --;
 alert(num2);
 
 
