@@ -6,19 +6,19 @@ if (country === 'Бишкек'){
     alert('не знаете?')
 }*/
 
-let login = prompt('кто ты воин?')
-if (login === 'сын ахилеса'){
-    alert('ты достоин! говори пороль.');
+let login = prompt('кто пришел?')
+if (login === 'Админ'){
+    
     let password = prompt('пороль')
-    if (password === 'niger'){
-        alert('заходи дорогой');
+    if (password === 'черный властелин'){
+        alert('добро пожаловать');
     }else if (password == null){
-        alert('уходи!');
+        alert('я вас не знаю');
     }else{
-        alert('кознить!!!');
+        alert('вход отменен');
     }
 }else if(login == null){
-    alert('уходи');
+    alert('вох отменен');
 }else {
-    alert('ты кто?');
+    alert('я вас не знаю');
 }
