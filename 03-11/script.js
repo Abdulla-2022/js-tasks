@@ -8,14 +8,14 @@ console.log(result);
 
 /******** 2 *********/
 
-const myFunc = [];
-const result2 = function (elem, length) {
+const mass = [];
+const mass_func = function (elem, length) {
     for (let i = 0; i < length; i++){
-        myFunc[i] = elem;
+        mass[i] = elem;
     }
-    console.log(myFunc);
+    return mass;
 }
-result2('a',5);
+mass_func('a',5);
 
 
 /******** 3 *********/
@@ -28,6 +28,7 @@ const data_func = () => {
     return data2;
 }
 console.log(data_func(data));
+
 
 
 
