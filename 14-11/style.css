@@ -1,0 +1,52 @@
+.btn{
+    padding: 12px 30px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    background-color: darkblue;
+}
+
+.alert{
+    display: none;
+
+}
+
+
+
+.primary{
+    width: 600px;
+    height: 30px;
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+    padding: 15px 0 10px 5px;
+    font-size: 20px;
+    border-radius: 8px;
+    display: block;
+
+
+}
+
+.secondary{
+    width: 600px;
+    height: 30px;
+    color: #41464b;
+    background-color: #e2e3e5;
+    border-color: #d3d6d8;
+    font-size: 20px;
+    border-radius: 8px;
+    display: block;
+}
+
+.success{
+    width: 600px;
+    height: 30px;
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+    padding: 15px 0 10px 5px;
+    font-size: 20px;
+    border-radius: 8px;
+    display: block;
+}
