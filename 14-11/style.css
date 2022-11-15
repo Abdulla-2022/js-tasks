@@ -2,14 +2,21 @@
     padding: 12px 30px;
     border: 0;
     border-radius: 5px;
-    color: white;
     margin: 10px;
-    background-color: darkblue;
 }
 
 .alert{
     display: none;
 
+
+}
+
+.btn-x{
+    color: black;
+    border: none;
+    position: relative;
+    left: 550px;
+    bottom: 22px;
 }
 
 
@@ -25,12 +32,11 @@
     border-radius: 8px;
     display: block;
 
-
 }
 
 .secondary{
     width: 600px;
-    height: 30px;
+    height: 40px;
     color: #41464b;
     background-color: #e2e3e5;
     border-color: #d3d6d8;
