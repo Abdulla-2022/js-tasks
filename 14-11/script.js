@@ -10,11 +10,25 @@ const btn_x2 = document.querySelector('#btn_x2');
 const text1 = document.querySelector('#text1');
 const text2 = document.querySelector('#text2');
 const text3 = document.querySelector('#text3');
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*** CLICK BUTTON №1 ***/
 btn1.addEventListener('click', () => {
     showNotification({
         key: 'primary',
     });
+   
 });
 const showNotification = (option) => {
     alert.classList.add(option.key);
@@ -27,6 +41,47 @@ btn_x.addEventListener('click', () => {
 const deleteAlert = () => {
     alert.classList.remove('primary');
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*** CLICK BUTTON №2 ***/
 btn2.addEventListener('click', () => {
